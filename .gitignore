@@ -1,0 +1,25 @@
+# IntelliJ
+.idea/
+*.iml
+
+# Java / Maven
+backend/target/
+backend/.idea/
+
+# Node / Next.js
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/.turbo/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
