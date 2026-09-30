@@ -31,3 +31,17 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+
+# Build outputs
+target/
+build/
